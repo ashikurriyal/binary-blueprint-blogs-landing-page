@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/x6N2KpW/programer-working.jpg",
+        "title": "The Art of Algorithms",
+        "author": "Alice Smith",
+        "author_img": "https://i.ibb.co/6bTLfxW/hip-young-serious-teacher-checkered-shirt-tweed-vest-standing-blank-blackboard-reading-from-thick-br.jpg",
+        "posted_date": "2024-03-20",
+        "reading_time": 15,
+        "hashtags": ["algorithm", "datastructures", "computerscience"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/mJqB8Xv/person-utilizing-ai-tools-daily-tasks.jpg",
+        "title": "Machine Learning Fundamentals",
+        "author": "Bob Johnson",
+        "author_img": "https://i.ibb.co/8Xp33NR/portrait-concentrated-redhead-man-writing-notebook.jpg",
+        "posted_date": "2024-03-18",
+        "reading_time": 20,
+        "hashtags": ["machinelearning", "artificialintelligence", "datascience"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/XVfFR3Q/processor-Chip.jpg",
+        "title": "Exploring Quantum Computing",
+        "author": "Charlie Brown",
+        "author_img": "https://i.ibb.co/RhXrNNd/successful-employee-posing-red-background.jpg",
+        "posted_date": "2024-03-15",
+        "reading_time": 25,
+        "hashtags": ["quantumcomputing", "physics", "computerscience"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/7WBc6BL/philipp-katzenberger-i-IJr-Uoe-Ro-CQ-unsplash.jpg",
+        "title": "Cybersecurity Essentials",
+        "author": "David Lee",
+        "author_img": "https://i.ibb.co/JvVX9QJ/stylish-woman-reading-book.jpg",
+        "posted_date": "2024-03-12",
+        "reading_time": 18,
+        "hashtags": ["cybersecurity", "networking", "computerscience"]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/4T9t8XP/shubham-dhage-R2-Ht-YWs5-QA-unsplash.jpg",
+        "title": "Blockchain Revolution",
+        "author": "Emma Green",
+        "author_img": "https://i.ibb.co/h26zbgt/student-holding-coffee-taking-notes.jpg",
+        "posted_date": "2024-03-10",
+        "reading_time": 22,
+        "hashtags": ["blockchain", "cryptocurrency", "technology"]
+    }
+]

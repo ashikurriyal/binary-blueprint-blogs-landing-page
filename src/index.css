@@ -6,10 +6,16 @@
 /* Lexend Font */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+
+/* Exo 2 Font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 .font-lexend{
   font-family: "Lexend", sans-serif;
 }
-
+.font-exo{
+  font-family: "Exo 2", sans-serif;
+}
 
 
 

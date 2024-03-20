@@ -1,9 +1,9 @@
-
+import profile from '../../assets/images/profile.png'
 
 const Header = () => {
     return (
-        <section className="">
-            <div className="navbar bg-base-100">
+        <section className="flex gap-3">
+            <div className="navbar bg-base-100 flex gap-3 border-b-2">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -29,6 +29,9 @@ const Header = () => {
                             <span className="badge badge-xs badge-primary indicator-item"></span>
                         </div>
                     </button>
+                </div>
+                <div>
+                    <img src={profile} alt="" />
                 </div>
             </div>
         </section>

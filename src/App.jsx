@@ -1,9 +1,11 @@
 
 
 import './App.css'
-import Banner from './Components/Header/Banner/Banner'
+import Blogs from './Components/Blogs/Blogs'
+import Banner from './Components/Banner/Banner'
 
 import Header from './Components/Header/Header'
+import Bookmarks from './Components/Bookmarks/Bookmarks'
 
 function App() {
   
@@ -12,6 +14,10 @@ function App() {
     <>
       <Header></Header>
       <Banner></Banner>
+      <div className='md:flex '>
+      <Blogs></Blogs>
+      <Bookmarks></Bookmarks>
+      </div>
     </>
   )
 }

@@ -23,6 +23,7 @@ const Blogs = ({handleAddBookMark, handleMarkAsRead}) => {
                     handleMarkAsRead={handleMarkAsRead}
                 ></Blog>)
             }
+            
         </div>
     );
 };

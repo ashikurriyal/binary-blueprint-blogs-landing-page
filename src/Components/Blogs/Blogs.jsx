@@ -3,7 +3,7 @@ import { useState } from "react";
 import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types';
 
-const Blogs = ({handleAddBookMark}) => {
+const Blogs = ({handleAddBookMark, handleMarkAsRead}) => {
 
     const [blogsDataLoad, setBlogsDataLoad] = useState([]);
 
@@ -14,12 +14,13 @@ const Blogs = ({handleAddBookMark}) => {
     }, [])
     return (
         <div className="md:w-2/3">
-            <h2>Blogs: {blogsDataLoad.length}</h2>
+            {/* <h2>Blogs: {blogsDataLoad.length}</h2> */}
             {
                 blogsDataLoad.map(blog => <Blog
                     key={blogsDataLoad.id}
                     blog={blog}
                     handleAddBookMark={handleAddBookMark}
+                    handleMarkAsRead={handleMarkAsRead}
                 ></Blog>)
             }
         </div>
@@ -27,7 +28,8 @@ const Blogs = ({handleAddBookMark}) => {
 };
 
 Blogs.propTypes = {
-    handleAddBookMark: PropTypes.func
+    handleAddBookMark: PropTypes.func,
+    handleMarkAsRead: PropTypes.func
 }
 
 export default Blogs;
